@@ -1,0 +1,294 @@
+body{
+    
+    font:
+    15px/1.5, bell mt, Arial, Helvetica, Sans-serif;
+    padding:0;
+    margin:0;
+   
+}
+
+
+/******************************NAVBAR **************************************/
+.nav{
+    
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height:80px;
+    border-bottom: 1px solid #fff;
+}
+.logo{
+    letter-spacing: 1px;
+    float: left;
+    color:#fff;
+    font-size: 22px;
+    line-height:80px;
+    padding: 0 6em;
+    font-weight:bold;
+    
+
+}
+.menu{
+    float: right;
+    line-height: 80px;
+    margin: 0 6em;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display:inline-block;
+}
+.menu ul li a:hover{
+    font-weight: bolder;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+ menu .current a{
+    color:white;
+    font-weight: bolder;
+}
+/****************************** RESERVE ****************************************** */
+.reserve{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.reserve h1{
+    color:#fff;
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+.reserve p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: lighter;
+}
+.reserve button{
+    color: #fff;
+    background: #d3325f;
+    padding: 18px 38px;
+    border:none;
+    font-size: 14px;
+   margin-top: 40px; 
+}
+.main-btn{
+    color:#d3325f;
+    font-size: 2rem;
+    border:2px solid #d3325f;
+    transition: all is ease-in-out;
+}
+.main-btn:hover{
+    color:#242424;
+    border:2px solid #c9c1ac;
+    background: #c9c1ac; 
+ }
+
+
+ .btn{
+    border:2px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.rogue{
+    min-height: 600px; 
+    background: url('imgs/5.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        
+    
+    }
+    .container{
+        width:80%;
+        margin: auto;
+        overflow:hidden;
+    }
+    /********************* ORDER**********************************8 */
+ 
+    #order{
+        padding:15px;
+        color:#ffffff;
+        background: #4999F4;;
+    
+    }
+    #order h1{
+        float: left;
+    }
+     #order form{
+         float: right;
+         margin-top: 15px;
+     } 
+     #order input[type="order"]{
+         padding:4px;
+         height:25px;
+         width:250px;
+     }
+     /* **************************PRICE******************************** */
+
+   #wholestory{ 
+      
+       font-family: bell mt; 
+       
+      
+   }
+   #wholestory h3{
+       text-align:left;
+       color: rgb(13, 107, 214);
+       font-weight: bold;
+       
+   }
+   
+
+   #prices{
+    /* margin-top: 20px; */
+    font-family: bell mt;
+    background-color: #f8f7f4
+  }
+    #prices h3{
+    text-align: center;
+   font-weight: bold; 
+   color:rgb(13, 107, 214);
+    font-family:bell mt; }
+    #prices .afford{
+        float:left;
+        text-align: center;
+        width:30%;
+        /* padding: 10px; */
+        font-size: 100%;
+  }
+.andela{
+    text-align: center;
+    color:rgb(13, 107, 214);
+    font-size: 20px;
+}
+.btn-price{
+    background-color: #4999F4;
+}
+     /* ****************************** FOOTER**************** */
+     footer{
+        padding: 10px;
+        margin-top: 10px;
+        color:#ffffff;
+        text-align: center;
+        background-color:#4999F4;
+    }
+    /************************ RESCUE*************************************** */
+    .rescue{
+        min-height: 500px; 
+    background: url('imgs/38.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        font-size:20px;
+        margin:0;
+    }
+    /* *************************ABOUT US************************* */
+    .about-head{
+        min-height: 600px; 
+    background: url('imgs/19.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        
+    }
+    /* **********************NOLLY******************** */
+    #nolly{
+        min-height: 500px; 
+    background: url('img/5.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+    
+    }
+    #nolly h1{
+        margin-top: 100px;
+        font-size: 30px;
+        margin-bottom: 10px;
+        font-family:bell mt;
+    
+    }
+    #nolly p{
+        padding:15px; 
+        color:white;
+        font-family: Bell MT;
+        font-size: 25px;
+    }
+    
+    
+  /* **************CONTACT******************************** */
+
+.contact-head{
+        min-height: 600px; 
+    background: url('imgs/38.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+        
+    }
+    #sent{
+        font-size: 25px;
+
+    }
+    /* ***************SERVICE SECTION********************** */
+    .service-head{
+        min-height: 600px; 
+    background: url('imgs/37.jpg') no-repeat 0 -400px;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        color:white;
+    }
+    .serve{
+        font-size: 25px;
+
+    }
+    .serv{
+     color:white; 
+     font-family: bell mt;
+      text-align: center;
+    }
+    /* ***************************sidebar********************** */
+
+ aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+ article#main-col{
+    float: left;
+    width: 60%;
+
+ }
+
+
+ .dark{
+    padding:15px;
+    background:#4999F4;
+    color:#ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
